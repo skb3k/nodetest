@@ -1,12 +1,12 @@
 'use strict';
 //const express = require('express');
 const http = require('http');
-const express = require('express');
-const path = require('path');
-//const socketIO = require('socket.io');
-const app = express();
-const server = http.createServer(app);
-const io = require('socket.io').listen(server);
+//const express = require('express');
+//const path = require('path');
+////const socketIO = require('socket.io');
+//const app = express();
+//const server = http.createServer(app);
+//const io = require('socket.io').listen(server);
 
 document.addEventListener('DOMContentLoaded', () => {
     // Canvas initialize
